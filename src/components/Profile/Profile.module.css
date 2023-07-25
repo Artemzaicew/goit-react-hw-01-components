@@ -1,11 +1,9 @@
 .profile {
-    width: fit-content;
-  
-    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    height: auto;
+    padding-top: 24px;
+
     font-weight: 400;
-  
-    background-color: aliceblue;
-    border: 2px solid rgb(155, 175, 200);
     border-radius: 8px;
     box-shadow: 0px 2px 6px gray;
   
@@ -13,18 +11,15 @@
   }
   
   .description {
-    padding: 32px 24px;
-  
     text-align: center;
   }
   
   .avatar {
+    width: 200px;
     margin: 0 auto;
     padding: 8px;
-    height: 132px;
-  
     border-radius: 50%;
-    background-color: rgb(155, 175, 200);
+    background-color: rgb(119, 119, 160);
   }
   
   .name {
@@ -48,14 +43,15 @@
   }
   
   .stats {
+    margin-top: 24px;
     display: flex;
     justify-content: space-between;
-    padding: 28px 24px;
-  
-    background-color: rgb(155, 175, 200);
+    
+    background-color: rgb(119, 119, 160);
   }
   
   .stats > li {
+    padding: 12px 14px;
     display: flex;
     flex-direction: column;
     align-items: center;
